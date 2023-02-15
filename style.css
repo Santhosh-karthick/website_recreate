@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    font-family:sans-serif;
+    margin:0;
+    padding:0;
+    scroll-padding-top:1rem;
+    scroll-behavior: smooth;
+    list-style:none;
+    text-decoration: none;
+    box-sizing:border-box;
+    background-color: black;
+
+}
+section{
+    padding:4rem 0 2rem;
+}
+
+img{
+    width:100%;
+
+}
+body{
+    text-decoration: none;
+    
+}
+.nav{
+    max-width:1068px;
+    margin-left:auto;
+    margin-right:auto;
+}
+header{
+    display:block;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:100;
+}
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:10px 10px;
+}
+.logo{
+    font-size:18px;
+    font-weight: 700;
+    color:orangered;
+}
+.navbar{
+    display:flex;
+    column-gap:30px;
+}
+.navbar a{
+    color:white;
+    font-size:15px;
+    
+}
+.navbar a:hover{
+    color:orangered;
+    border-bottom:1px solid white;
+
+}
+.button{
+    padding-right: 3px;
+}
+.button button{
+   background-color: orangered;
+    color:white;
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius:7px;
+    
+}
+.search-box{
+   
+    position: relative;
+    box-shadow:none;
+    border:1px solid orangered;
+    border-radius: 0.5px;
+    background: transparent;
+}
+.search-box input{
+    width:100%;
+    outline:none;
+    color:white;
+}
+::placeholder{
+    color:white;
+}
+.home{
+    max-width: 1300px;
+    margin:auto;
+    width:100;
+    min-height: 640px;
+    display:flex;
+    align-items: center;
+    background: url(benz1.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    image-resolution:inherit;
+ 
+}
+.home-text{
+ padding-left:80px;
+ padding-top: 210px;
+ color:white;
+ background:none;
+ 
+}
+.home-text h5{
+    font-weight: lighter;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-text h2{
+    background-color: transparent;
+}
+.btn{
+    padding-right: 3px;
+}
+button .btn{
+   background-color:transparent;
+    color:white;
+    border:1px solid white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius:7px;   
+}
+.btn:hover{
+    border-bottom:1px solid white;
+    color:orangered;
+}
+.section2 {
+    color:white;
+    max-width: 1300px;
+    margin:auto;
+    width:100;
+    min-height: 640px;
+    display:flex;
+    align-items: center;
+    background: url(benz2.jpeg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:auto;
+ 
+   
+}
+.section2{
+ 
+    padding-left:80px;
+    padding-bottom:140px;
+   
+}
+.section2 .heading{
+    background:transparent;
+}
+.section2 .heading h4{
+  background: none;
+  font-weight: lighter;
+  font-family: Arial;
+}
+.section2 .heading h2{
+    background: transparent;
+}
+.section2 .heading p{
+    background:transparent;
+}
+.section2 ul{
+    background:transparent;
+}
+.section2 .list{
+     background:transparent;
+     color:white;
+     display: flex;
+     justify-content: space-between;
+}
+.section2 .heading .list .icon1 i{
+     color:orangered;
+     height: 10px;
+}   
+.section2 .heading .list .icon2 i{
+   color:orangered; 
+}   
+.section3 {
+ color:white;
+ text-align: justify;
+ padding-left: 800px;
+ background-image: url(benz3.jpeg);
+ background-size: cover;
+}
+.section3 .heading3 .hp{
+    display: flex;
+}
+footer{
+    height: 100px;
+   
+}
+footer .nav .logo {
+    padding-top:50px;
+}
+footer .nav .navbar{
+    align-items: center;
+    padding-top: 50px;
+    padding-left:200px;
+}
